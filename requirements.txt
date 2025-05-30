@@ -2,5 +2,9 @@ requests
 pandas
 pymysql
 sqlalchemy
-black
 matplotlib
+black
+scikit-learn
+prophet
+seaborn
+plotly

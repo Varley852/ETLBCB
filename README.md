@@ -35,4 +35,3 @@ A função "salvarCsv" serve para salvar um dataframe do pandas em um arquivo CS
 | quantidadeConvenios              | decimal | Quantidade Convênio                     | Quantidade (em milhares) de transações realizadas referentes a arrecadações trimestrais governamentais e não-governamentais. |
 | quantidadeDebitoDireto           | decimal | Quantidade Débito Direto                | Quantidade (em milhares) de transações trimestrais referente a débitos previamente autorizados pelo cliente em sua conta corrente/pagamento. |
 | quantidadeSaques                 | decimal | Quantidade de Saque                     | Quantidade (em milhares) de saques realizados nos caixas eletrônicos trimestralmente. |
-
