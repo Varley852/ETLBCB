@@ -1,10 +1,12 @@
 import pandas as pd
 from src.extractTransform import requestApiBcb
-from src.load import salvarCsv, salvarSQlite, salvarMySQL
+from src.load import salvarCsv, salvarSqlite, salvarMySql
 
 dadosBcb = requestApiBcb("20191")
-salvarCsv(dadosBcb, "src/datasets/meiosPagamentosTri.csv", ";", ".")
 
-salvarSQlite(dadosBcb, "src/datasets/etlbcb.db", "meios_pagamentos_tri")
+# salvarCsv(dadosBcb, "src/datasets/meiosPagamentosTri.csv", ";",".")
 
-salvarMySQL(dadosBcb, "root", "root", "localhost", "etlbcb", "meios_pagamentos_tri")
+salvarSqlite(dadosBcb, "src/datasets/etlbcb.db", "meios_pagamentos_tri")
+
+# salvarMySql(dadosBcb, "root", "root", "localhost", "etlbcb", "meios_pagamentos_tri")
+
